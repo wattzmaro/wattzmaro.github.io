@@ -2,41 +2,79 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>wattz麻呂のサイト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ワッツ麻呂のサイト</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 255, 0);
+            font-family: 'MS PGothic', sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            border: 3px solid black;
+            padding: 10px;
+        }
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            width: 200px;
+            height: auto;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+        .content {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        /*背景画像*/
+        body {
+            background-image: url('back.png'); /* 背景画像 */
+            background-repeat: repeat; /* タイル状に繰り返す */
+            background-attachment: fixed; /* スクロールしても背景が固定 */
+            background-size: 300px 300px;
+
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0);
+            border: 3px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Wattz麻呂のサイトへようこそ</h1>
-        <p>まさにクソサイト、見るだけ無駄なWattz麻呂のサイトへようこそ</p>
-        <h2>おしながき</h2>
-        <p>そんなもんはねえよ(BVEデータ「MetroDrive 日比谷編（日比谷線データ+AtsEX）」、「電車でG◯風プラグイン(MapPlugin/VehiclePlugin)」など公開予定)
-        <h3>今日の一言</h3>
-        <p>もう書くことがないゾ（2024-04-07）</p>
-        <h3>リンク集</h3>    
-    　　<p>ブログ→<a href="https://waltzmaro.blog.jp/">こ↑こ↓</a></p>
-    　　<p>Twitter(現X)→<a href="https://twitter.com/wattzmaro">こ↑こ↓</a></p>
-        <p>Misskey.io(最近あんま動いてない)→<a href="https://misskey.io/@wattz">こ↑こ↓</a></p>
-        <p>天皇陛下をフォローするためだけに作ったInstagram→<a href="https://www.instagram.com/sorawattz/">こ↑こ↓</a></p>
-        <p>偉大なるコメネズミ書記長のブログ↓</p>
-        <a href="http://komenezumi.net/"><img src="http://komenezumi.net/banner/komenezumi.gif"></a>
-        <p>リンクフリーですので、是非皆様のサイトにクソサイトの窓口を！</p>
-        <p>HTMLファイルに右のようにお書きください。"<a href="https://wattzmaro.github.io/"><img src="https://wattzmaro.github.io/barner.png"></a>"</p>
-        <p>リンクご希望の方は私のTwitter・インスタのDMもしくはe-mail wattzwatanabe@gmail.com まで</p>
-        <p></p>
-        <p></p>
-        <p>もしかしたらナウルよりひどいかもなこのサイト</p>
-        <p>AIzaSyCxooofhbg0THNPAJ81BZF63nO8YUGmeRc</p>
-        <h5>アーカイブス</h5>
-        <p>前のやつをはりま～す</p>
-        <h6>今日の一言アーカイブス</h6>
-        <p>どうせこれ明後日には更新しなくなる（2024-03-30）</p>
-        <p>今日はカラオケにいきました　たのしかったです(2024-03-31)</p>
-        <p>もう新年度やん、去年どころか２，３年前から全然成長してねえぞ俺(2024-04-01)</p>
-        <p>昨日の更新さっそくわすれたZE☆　ちくしょう！台無しにしやがった！誰もお前を愛さない(2024-04-03)</p>
-        <p>赤てん大会むずすぎワロタ(2024-04-04)</p>
-        <p></p>
-        <h4>エイプリルフールBVEデータ</h4>
-         <p><a href="https://wattzmaro.github.io/Densha De G○ Plugin(2024-April).zip">こ↑こ↓</a>何が入ってるかはお楽しみ♡（書くのめんどい、ReadMeよめ）</p>
+    <div class="container">
+        <div class="header">ワッツ麻呂のサイト</div>
+        <img class="profile-img" src="profile.png" alt="PineApple">
+        <div class="content">
+            <p>らしゃーせー</p>
+            <table>
+                <tr>
+                    <td><a href="bve.html">BVE</a></td>
+                    <td><a href="info.html">サイト情報</a></td>
+                    <td><a href="http://abehiroshi.la.coocan.jp">阿部寛</a></td>
+                </tr>
+            </table>
+            <p>流石に<a href="https://wattzmaro.github.io/old/index.html">前のサイト</a>じゃやばいかなと思って...</p>
+            <p>絶賛改修中です</p>
+
+        </div>
     </div>
 </body>
 </html>
