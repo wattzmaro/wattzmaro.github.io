@@ -9,6 +9,15 @@
             background-color: rgba(255, 255, 255, 0);
             font-family: 'MS PGothic', sans-serif;
             text-align: center;
+            background-image: url('back.png'); /* 背景画像 */
+            background-repeat: repeat; /* タイル状に繰り返す */
+            background-attachment: fixed; /* スクロールしても背景が固定 */
+            background-size: 300px 300px;
+            /*ギザ感*/
+            image-rendering: pixelated; /* 画像がギザギザする */
+            text-rendering: optimizeSpeed; /* フォントを滑らかにせず高速レンダリング */
+            -webkit-font-smoothing: none; /* Webkit系（Chrome/Safari）でアンチエイリアス無効 */
+            -moz-osx-font-smoothing: grayscale; /* Firefox/macOS用 */
         }
         .container {
             width: 800px;
@@ -22,7 +31,7 @@
             margin-bottom: 10px;
         }
         .profile-img {
-            width: 200px;
+            width: 150px;
             height: auto;
             border: 2px solid rgba(0, 0, 0, 0);
         }
@@ -41,13 +50,6 @@
             padding: 5px;
         }
         /*背景画像*/
-        body {
-            background-image: url('back.png'); /* 背景画像 */
-            background-repeat: repeat; /* タイル状に繰り返す */
-            background-attachment: fixed; /* スクロールしても背景が固定 */
-            background-size: 300px 300px;
-
-        }
         .container {
             width: 800px;
             margin: 20px auto;
@@ -66,15 +68,20 @@
             <p>らしゃーせー</p>
             <table>
                 <tr>
-                    <td><a href="bve.html">BVE</a></td>
+                    <td><a href="works/index.html">制作物</a></td>
                     <td><a href="info.html">サイト情報</a></td>
-                    <td><a href="http://abehiroshi.la.coocan.jp">阿部寛</a></td>
+                    <td><a href="http://abehiroshi.la.coocan.jp" target="_blank">阿部寛</a></td>
                 </tr>
             </table>
-            <p>流石に<a href="https://wattzmaro.github.io/old/index.html">前のサイト</a>じゃやばいかなと思って...</p>
+            <p>流石に<a href="old/index.html">前のサイト</a>じゃやばいかなと思って...</p>
             <p>絶賛改修中です</p>
-
+            <!-- FC2カウンター ここから -->
+            <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=89511043"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=89511043" /></noscript>
+            <!-- FC2カウンター ここまで -->
+            <h2>リンク集</h2>
+            <p><a href="https://x.com/wattzmaro">管理人のtwitter</a></td></p>
         </div>
     </div>
+    <p> 
 </body>
 </html>
