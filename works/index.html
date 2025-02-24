@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ワッツ麻呂の制作物</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 255, 0);
+            font-family: 'MS PGothic', sans-serif;
+            text-align: center;
+            background-image: url('back.png'); /* 背景画像 */
+            background-repeat: repeat; /* タイル状に繰り返す */
+            background-attachment: fixed; /* スクロールしても背景が固定 */
+            background-size: 300px 300px;
+            /*ギザ感*/
+            image-rendering: pixelated; /* 画像がギザギザする */
+            text-rendering: optimizeSpeed; /* フォントを滑らかにせず高速レンダリング */
+            -webkit-font-smoothing: none; /* Webkit系（Chrome/Safari）でアンチエイリアス無効 */
+            -moz-osx-font-smoothing: grayscale; /* Firefox/macOS用 */
+        }
+        .container {
+            width: 1000px;
+            margin: 20px auto;
+            border: 3px solid black;
+            padding: 10px;
+        }
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+        .content {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">制作物一覧</div>
+        <div class="content">
+            <p>ウッス！</p>
+            <table>
+                <tr>
+                    <td><a href="metrodrive/index.html">日比谷線</a></td>
+                    <td><a href="#Simple_HTML">Simple_HTML_Viewer</a></td>
+                    <td><a href="#BS_Launcher"> BlueStacks Launcher</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id = "MetroDrive">
+            <h1> MetroDrive2 日比谷編 <img src="new.gif"></h1>
+            <img src="metrodrive.png">
+           <p> 2025年10月頃公開予定!</p>
+           <p>詳しくは<a href="metrodrive/index.html" target="_blank">こちら</a></p>
+        </div>
+        <br></br>
+        <div id = "Simple_HTML">
+            <h1>Simple_HTML_Viewer<img src="new.gif"></h1>
+            <p>ただただHTMLを表示するだけのアプリ</p>
+            <p>ダウンロードは<a href="https://github.com/cydiawaltz/Simple_HTML_Viewer/releases/tag/ver1.0" target="_blank">こちら</a></p>
+        </div>
+        <br></br>
+        <div id = "BS_Launcher">
+            <h1>BlueStacks Launcher<img src="new.gif"></h1>
+            <p>「ジャップにはマクロなんて使わせねーぜ!HAHA!」とか言ってる (妄想) BlueStacks Systemsの白人に全力で中指を立てに行くアプリ</p>
+            <p>これを起動するとマクロがオンになった状態でBlueStacks5を起動できる</p>
+            <p>ダウンロードは<a href="https://github.com/cydiawaltz/Simple_HTML_Viewer/releases/tag/ver1.0" target="_blank">こちら</a></p>
+        </div>
+    </div>
+    <p> 
+</body>
+</html>
