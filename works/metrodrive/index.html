@@ -2,11 +2,76 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>MetroDrive2 日比谷編 特設サイト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroDriver 日比谷編</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 255, 0);
+            font-family: 'MS PGothic', sans-serif;
+            text-align: center;
+            background-image: url('back.png'); /* 背景画像 */
+            background-repeat: repeat; /* タイル状に繰り返す */
+            background-attachment: fixed; /* スクロールしても背景が固定 */
+            background-size: 300px 300px;
+            /*ギザ感*/
+            image-rendering: pixelated; /* 画像がギザギザする */
+            text-rendering: optimizeSpeed; /* フォントを滑らかにせず高速レンダリング */
+            -webkit-font-smoothing: none; /* Webkit系（Chrome/Safari）でアンチエイリアス無効 */
+            -moz-osx-font-smoothing: grayscale; /* Firefox/macOS用 */
+        }
+        .container {
+            width: 1000px;
+            margin: 20px auto;
+            border: 3px solid black;
+            padding: 10px;
+        }
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+        .content {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>まだなんもできてないZE☆</h1>
+    <div class="container">
+        <div class="header">BVE関連置き場</div>
+        <div class="content">
+            <p>※BVE日比谷線データ/データ・ランチャー一体型の総合版「MetroDriver 日比谷線」の公開場所はこちらです</p>
+            <table>
+                <tr>
+                    <td><a href="koukai">公開中データ</a></td>
+                    <td><a href="#Simple_HTML">MetroDriver 日比谷編</a></td>
+                    <td><a href="#BS_Launcher"> </a></td>
+                </tr>
+            </table>
+        </div>
+        <div id = "koukai">
+            <h1>各種車両ストラクチャ<img src="new.gif"></h1>
+            <img src="Image.png">
+           <p> 日比谷線のお供として使う、北千住周辺を走る車両のストラクチャです。</p>
+           <p> 東急8500、メトロ8000、TX1000/2000と未完成のおまけが入っております。</p>
+           <p> DLは<a href="07-29.zip">こちら</a></p>
+        </div>
     </div>
+    <p> 
 </body>
 </html>
