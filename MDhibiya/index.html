@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BVE向け日比谷線シナリオ</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: 'MS PGothic', sans-serif;
+            text-align: center;
+            background-image: url('back.png'); /* 背景画像 */
+            background-repeat: repeat; /* タイル状に繰り返す */
+            background-attachment: fixed; /* スクロールしても背景が固定 */
+            background-size: 400px 400px;
+            /*ギザ感*/
+            image-rendering: pixelated; /* 画像がギザギザする */
+            text-rendering: optimizeSpeed; /* フォントを滑らかにせず高速レンダリング */
+            -webkit-font-smoothing: none; /* Webkit系（Chrome/Safari）でアンチエイリアス無効 */
+            -moz-osx-font-smoothing: grayscale; /* Firefox/macOS用 */
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            border: 3px solid black;
+            padding: 10px;
+        }
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+        .content {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border: 2px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        /*背景画像*/
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 1);
+            border: 3px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">BVE日比谷線 公開ページ</div>
+        <img class="main_img" src="top.png" width="600" alt="main_image">
+        <div class="content">
+            <br>
+            <h3>日比谷線 ver0.1-2026年4月1日公開</h3>
+            <br>
+            <p>スクリーンショット</p>
+            <p><img src="0.png" width="600"></a></p>
+            <p><img src="1.png" width="600"></a></p>
+            <p><img src="2.png" width="600"></a></p>
+            <p><img src="3.png" width="600"></a></p>
+            <p>運転台はvertah様の03系(過去のエイプリルフールデータ、現在未公開)を使用しております。</p>
+            <br>
+            <h4>ダウンロードする前に</h4>
+            <p>本来なら完成させてから出したかったのですが、今後一年ほど一切活動ができない為、ここまでで公開させていただきます。</p>
+            <p>未完成な点は</p>
+            <p>・北千住駅と引込線部分</p>
+            <p>・南千住2丁目・5丁目エリア</p>
+            <p>・音声全般</p>
+            <p>・対向車の調整</p>
+            <p>・各駅の表示類</p>
+            <p>です。ここに関しては活動休止開けに更新致します。</p>
+            <br>
+            <p>その他やりたいこと(やるとは言ってない)</p>
+            <p>・03系・20000系列・13000系・70000系列の車両データ</p>
+            <p>・BveEXによる機能拡張版ゲーム風シナリオ「MetroDriver」(詳しくは後述)</p>
+            <p>・より電車でG◯ぽくするためのUnityを使用したBVEのシナリオランチャー(これも後述)</p>
+            <p>尚、いずれも最低限形になってはいまが、これらは細かなバグや音素材の不足などが顕著という状況です。</p>
+            <br>
+            <p></p>
+            <h4>ダウンロードの前に</h4>
+            <p>本データは未完成です。youtube等動画サイトでの運転動画の公開は認めません。改造パッチについてはご自由にどうぞ。</p>
+            <p>動作にはBveEXの導入が必要です。ご了承ください。</p>
+            <p>ご意見・バグ報告は<a href="https://docs.google.com/forms/d/e/1FAIpQLSdAufOpw0dgsxkPtiMoMiWyK05732-bcoH_6Hx7uJMrpA_37g/viewform?usp=publish-editor">こちら</a></p>
+            <p>仮公開データのため、エラーなどを一切解消しておりませんが、気にせず続行してください。</p>
+            <p>4thi5、メモリ4gb、ストレージ128gb、GPU内蔵のPCにて動作のテストをしております。</p>
+            <br>
+            <p>お待たせしました。以下のリンクからダウンロードしてください。</p>
+            <p><a href="https://github.com/wattzmaro/wattzmaro.github.io/releases/download/hibiyaline/2026-04-01.zip">ダウンロード</a></p>
+            <br>
+            <p>このデータ内のファイルのうち、頂き物のファイル(wattzmaro\MDHibiya\structures\collaboratorと他のディレクトリにある何枚かの画像)以外は転載していただいて構いません。</p>
+            <p></p>
+            <p>制作にあたり、以下の皆様にご協力いただきました。ありがとうございます。</p>
+            <p>おーとま様 ... BVE拡張MOD「BxeEX」を開発していただきました。また、プラグイン開発に多大な援助をしていただきました。</p>
+            <p>高橋うさお様 ... 車両プラグイン「メトロ総合プラグイン」を開発してくださいました。</p>
+            <p>shino様 ...657系/531系の車両ストラクチャを頂きました。</p>
+            <p>サハ209様 ... 231系の車両ストラクチャをフリー素材として公開してくださいました。また、「サハ209式地下駅」はシナリオ制作/03系ストラクチャの参考にさせていただきました。</p>
+            <p>くーせみ様・BVE_i_様 ... 沿線ストラクチャのモデリングを支援してくださいました。また、トンネル部分のストラクチャや駅など一部ストラクチャを頂きました。</p>
+            <p>Bve trainsim Kintetsu Nara/Osaka Line 様...一部ストラクチャを「なるべく座標を打たずに線路を引く」にてフリー素材として公開してくださいました。</p>
+            <p>いぬろこさん様(現実逃避組) ... 制作支援ソフト「Prepare」を開発し、10030系のテクスチャを提供していただきました。</p>
+            <p>また、Bve本体を開発して頂きましたmackoy様・Rock_On様にもこの場を借りて感謝いたします。</p>
+            <p>また、本シナリオでは一部のテクスチャの作成/加工にgoogleのgeminiを使用しております。ご了承ください。</p>
+        </div>
+    </div>
+    <p> 
+</body>
+</html>
